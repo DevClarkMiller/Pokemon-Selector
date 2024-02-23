@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Clark Project</title>
+        <link rel="stylesheet" href="C_M_Project1.css">
+                
+        <script src="C_M_Project1.js"></script>
+    </head>
+    <body onload="getDataAsync()">
+        <header>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1280px-International_Pok%C3%A9mon_logo.svg.png" alt="">
+            <h1>Character Selecter</h1>
+        </header>
+
+        <div id="fields">
+            <div id="btnGroup">
+                <input type="button" onclick="searchID()" id="retrieve" class="formBtn" value="Retrieve">
+                <input type="button" onclick="nextP()" id="next" class="formBtn" value="Next Pokemon">
+                <input type="button" onclick="previousP()" id="previousPokemon" class="formBtn" value="Previous Pokemon">
+            </div>  
+            
+            <form>
+                <label for="pokemonIDNum">Pokemon ID:</label>
+                <input type="number" id="pokemonIDText" class="iF">
+                <label for="pokemonNumText">Pokemon Num</label>
+                <input type="number" id="pokemonNumText" class="iF" readonly>
+                <label for="pokemonNameText">Name</label>
+                <input type="text" id="pokemonNameText" class="iF" readonly>
+                <label for="pokemonHeightText">Height</label>
+                <input type="text" id="pokemonHeightText" class="iF" readonly>
+                <label for="pokemonWeightText">Weight</label>
+                <input type="text" id="pokemonWeightText" class="iF" readonly>
+            </form>
+
+            <div id="imgDiv">
+                <img id="pokemonPic" src="http://www.serebii.net/pokemongo/pokemon/001.png" alt="Picture of pokemon">
+            </div>
+
+            <div id="infoDiv">
+                <p id="pokeStats">Extra Info Displayed Here:</p>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+body{
+    padding: 0 30px;
+    background-color: #20b49c;
+}
+
+#fields{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 25px;
+    background-color: #f6e652;
+    border: 2px solid;
+    padding: 10px 10px;
+    padding-right: 25%;
+    border-radius: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+header img{
+    width: 30%;
+    height: 95%;
+    margin-right: 10px;
+}
+
+header h1{
+    font-size: 80px;
+    color: #FFCC00;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #0075BE;
+    text-shadow: 5px 2px 2px #034974;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+form .iF{
+    margin-bottom: 15px;
+    color: #FFCC00;;
+    width: 100px;
+}
+
+#btnGroup{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0;
+}
+
+.formBtn{
+    margin: 10px 0;
+    width: auto;
+    align-self: start;
+}
+
+#imgDiv{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    background-color: #FFCC00;
+    border: 2px solid;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+#pokemonPic{
+    width: 175px;
+}
+
+#fields label{
+    color: #0075BE;
+}
